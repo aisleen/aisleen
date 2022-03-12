@@ -28,7 +28,7 @@
     position: fixed;
     width: 290px;
     height: 250px;
-    bottom: 100px;
+    bottom: 50px;
   }
 
   p5 {
@@ -64,7 +64,7 @@
   }
 
   .a2 {
-    font-size: 25px;
+    font-size: 22px;
     text-decoration: none;
     font-family: 'Sorts Mill Goudy', serif;
     color: #414242;
@@ -80,7 +80,7 @@
   .a5 {
     text-decoration: none;
     font-family: 'PT Serif', serif;
-    font-size: 30px;
+    font-size: 12px;
     color: #f4d1cd;
   }
 
