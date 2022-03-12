@@ -26,7 +26,7 @@
   header {
     transform: rotate(-90deg);
     position: fixed;
-    width: 270px;
+    width: 290px;
     height: 250px;
     bottom: 100px;
   }
@@ -41,7 +41,7 @@
 
 /*---------- PARAGRAPH FLOW ----------*/
   p1{
-    overflow-wrap: break-word;
+  /*  overflow-wrap: break-word; */
     color: #414242;
   }
 
