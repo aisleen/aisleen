@@ -2,7 +2,7 @@
 /*-------------------- MOBILE VERSION --------------------*/
 @media only screen and (max-width: 1253px)  {
 
-/*---------- PAGE LAYOUT ----------*/
+  /*---------- PAGE LAYOUT ----------*/
   .container{
     position: absolute;
     left: 50%;
@@ -14,62 +14,61 @@
   }
 
   /*---------- LINK ANIMATIONS ----------*/
-  .a3:hover {
-    color: #F4D1CD;
+.a3:hover {
+  color: #F4D1CD;
   }
 
-  .a3::after {
-    color: #F4D1CD;
-  }
+.a3::after {
+  color: #F4D1CD;
+}
 
 /*---------- BOTTOM LEFT CORNER LINKS----------*/
-  header {
-    transform: rotate(-90deg);
-    position: fixed;
-    width: 290px;
-    height: 250px;
-    bottom: 50px;
-  }
+header {
+  transform: rotate(-90deg);
+  position: fixed;
+  width: 280px;
+  height: 200px;
+  bottom: 100px;
+}
 
-  p5 {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 12px;
-    color: #191b1b;
-    letter-spacing: 4px;
-  }
+p5 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
+  color: #191b1b;
+  letter-spacing: 4px;
+}
 
 
 /*---------- PARAGRAPH FLOW ----------*/
   p1{
-  /*  overflow-wrap: break-word; */
+    overflow-wrap: break-word;
     color: #414242;
   }
 
 /*---------- TEXT STYLING ----------*/
-  h2 {
-    font-family: 'Sorts Mill Goudy', serif;
-    font-weight: 400;
-    letter-spacing: 3px;
-    color: #191b1b;
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
+h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #191b1b;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
 
-  .a1 {
-    font-size: 12px;
-    text-decoration: none;
-    font-family: 'Maven Pro', sans-serif;
-    letter-spacing: 2px;
-    color: #414242;
-  }
+.a1 {
+  text-decoration: none;
+  font-family: 'Maven Pro', sans-serif;
+  letter-spacing: 2px;
+  color: #414242;
+}
 
-  .a2 {
-    font-size: 22px;
-    text-decoration: none;
-    font-family: 'Sorts Mill Goudy', serif;
-    color: #414242;
-    line-height: 45px;
-  }
+.a2 {
+  text-decoration: none;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #414242;
+  line-height: 49px;
+}
 
   .a3 {
     text-decoration: none;
@@ -80,7 +79,7 @@
   .a5 {
     text-decoration: none;
     font-family: 'PT Serif', serif;
-    font-size: 12px;
+    font-size: 30px;
     color: #f4d1cd;
   }
 
@@ -101,6 +100,19 @@
     height: 100%;
   }
 
+/*---------- FLOWER ----------*/
+div.stamps{
+  position:absolute;top:0;left:50%;z-index:10;width:80px;pointer-events:none
+  }
+
+div.stamps img{
+  position:absolute;transform:translate(-50%, -50%);animation:fade-out 2s ease-in-out forwards;animation-delay:4s
+}
+
+@keyframes fade-out{
+  from{opacity:1}to{opacity:0}
+}
+
 }
 
 
@@ -109,142 +121,143 @@
 @media only screen and (min-width: 1253px){
 
 /*---------- PAGE LAYOUT ----------*/
-  .container{
-    position: absolute;
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%);
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-gap: 100px;
-  }
+.container{
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 100px;
+}
 
 /*---------- LINK ANIMATIONS ----------*/
 
-  .a3{
-    text-decoration: none;
-    color: #414242;
-    position: relative;
-    transition: color .4s ease-out;
-  }
+.a3{
+  text-decoration: none;
+  color: #414242;
+  position: relative;
+  transition: color .4s ease-out;
+}
 
-  .a3:hover {
-    color: #F4D1CD;
-  }
+.a3:hover {
+  color: #F4D1CD;
+}
 
-  .a3:hover::after {
-    border-color: #F4D1CD;
-    right: 0;
-  }
+.a3:hover::after {
+  border-color: #F4D1CD;
+  right: 0;
+}
 
-  .a3::after {
-    content: "";
-    border-radius: 0px;
-    border-top: 1.5px solid #F4D1CD;
-    position: absolute;
-    right: 100%;
-    bottom: 1px;
-    left: 0px;
-    transition: right .2s cubic-bezier(0,.5,0,1);
-  }
+.a3::after {
+  content: "";
+  border-radius: 0px;
+  border-top: 1.5px solid #F4D1CD;
+  position: absolute;
+  right: 100%;
+  bottom: 1px;
+  left: 0px;
+  transition: right .2s cubic-bezier(0,.5,0,1);
+}
 
 
 /*---------- BOTTOM LEFT CORNER LINKS----------*/
-  header {
-    transform: rotate(-90deg);
-    position: fixed;
-    width: 280px;
-    height: 200px;
-    bottom: 100px;
-  }
+header {
+  transform: rotate(-90deg);
+  position: fixed;
+  width: 280px;
+  height: 200px;
+  bottom: 100px;
+}
 
-  p5 {
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 12px;
-    color: #191b1b;
-    letter-spacing: 4px;
-  }
+p5 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
+  color: #191b1b;
+  letter-spacing: 4px;
+}
 
 
 /*---------- SECTION STYLING ----------*/
-  section {
-    font-family: 'Maven Pro', sans-serif;
-    color: #323434;
-  }
+section {
+  font-family: 'Maven Pro', sans-serif;
+  color: #323434;
+}
 
 /*---------- PARAGRAPH FLOW ----------*/
-  p1{
-    overflow-wrap: break-word;
-    color: #414242;
-  }
+p1{
+  overflow-wrap: break-word;
+  color: #414242;
+}
 
 /*---------- TEXT STYLING ----------*/
-  h2 {
-    font-family: 'Sorts Mill Goudy', serif;
-    font-weight: 400;
-    font-size: 35px;
-    letter-spacing: 3px;
-    color: #191b1b;
-    margin-top: 90px;
-    margin-bottom: 0px;
-  }
+h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight: 400;
+  font-size: 38px;
+  letter-spacing: 3px;
+  color: #191b1b;
+  margin-top: 90px;
+  margin-bottom: -8px;
+}
 
-  .a1 {
-    text-decoration: none;
-    font-family: 'Maven Pro', sans-serif;
-    letter-spacing: 2px;
-    color: #414242;
-  }
+.a1 {
+  text-decoration: none;
+  font-family: 'Maven Pro', sans-serif;
+  letter-spacing: 2px;
+  color: #414242;
+}
 
-  .a1:hover span {
-    display: none
-  }
+.a1:hover span {
+  display: none
+}
 
-  .a1:hover:before {
-    content: " Currently at Shopify ";
-    font-style: italic;
-  }
+.a1:hover:before {
+  content: " Currently at Shopify ";
+  font-style: italic;
+}
 
-  .a2 {
-    text-decoration: none;
-    color: #414242;
-    line-height: 45px;
-  }
+.a2 {
+  text-decoration: none;
+  color: #414242;
+  line-height: 45px;
+}
 
-  .a2:hover span {
-    display: none
-  }
+.a2:hover span {
+  display: none
+}
 
-  .a2:hover:before {
-    content: "Ice-leen San-tohs";
-    font-style: italic;
-  }
+.a2:hover:before {
+  content: "Ice-leen San-tohs";
+  font-style: italic;
+}
 
-  .a3 {
-    text-decoration: none;
-    font-family: 'Maven Pro', sans-serif;
-    color: #414242;
-  }
+.a3 {
+  text-decoration: none;
+  font-family: 'Maven Pro', sans-serif;
+  color: #414242;
+}
 
-  .a5 {
-    text-decoration: none;
-    font-family: 'PT Serif', serif;
-    font-size: 25px;
-    color: #f4d1cd;
-  }
+.a5 {
+  text-decoration: none;
+  font-family: 'PT Serif', serif;
+  font-size: 25px;
+  color: #f4d1cd;
+}
 
 /*---------- CROP IMAGE ----------*/
-  .profile-icon {
-    width:260px;
-    height: 260px;
-    overflow: hidden;
-    border-radius: 50%;
-  }
+.profile-icon {
+  width:260px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 50%;
+}
 
 /*---------- SHAPE IMAGE ----------*/
-  .profile-icon img {
-    width: auto;
-    height: 100%;
-  }
+.profile-icon img {
+  width: auto;
+  height: 100%;
+}
+
 
 }
