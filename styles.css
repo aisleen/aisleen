@@ -100,19 +100,6 @@ h2 {
     height: 100%;
   }
 
-/*---------- FLOWER ----------*/
-div.stamps{
-  position:absolute;top:0;left:50%;z-index:10;width:80px;pointer-events:none
-  }
-
-div.stamps img{
-  position:absolute;transform:translate(-50%, -50%);animation:fade-out 2s ease-in-out forwards;animation-delay:4s
-}
-
-@keyframes fade-out{
-  from{opacity:1}to{opacity:0}
-}
-
 }
 
 
