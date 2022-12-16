@@ -10,6 +10,7 @@
     display: grid;
     grid-template-rows: 2fr 2fr;
     grid-gap: 20px;
+    width: 200px;
   }
 
   /*---------- LINK ANIMATIONS ----------*/
@@ -26,8 +27,8 @@ header {
   transform: rotate(-90deg);
   position: fixed;
   width: 280px;
-  height: 200px;
-  bottom: 100px;
+  height: 230px;
+  bottom: 50px;
 }
 
 p5 {
@@ -64,7 +65,7 @@ h2 {
 
 .a2 {
   text-decoration: none;
-  font-size: 23px;
+  font-size: 24px;
   font-family: 'Sorts Mill Goudy', serif;
   color: #414242;
   line-height: 20px;
