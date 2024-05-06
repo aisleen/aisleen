@@ -1,5 +1,5 @@
 /*-------------------- MOBILE VERSION --------------------*/
-@media only screen and (max-width: 1253px)  {
+@media only screen and (max-width: 1291px)  {
 
   /*---------- PAGE LAYOUT ----------*/
   .container{
@@ -104,7 +104,7 @@ h2 {
 }
 
 /*-------------------- DESKTOP VERSION --------------------*/
-@media only screen and (min-width: 1253px){
+@media only screen and (min-width: 1291px){
 
 /*---------- PAGE LAYOUT ----------*/
 .container{
